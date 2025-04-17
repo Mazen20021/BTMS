@@ -45301,15 +45301,17 @@ r.toString
 return A.cz(A.oj(new A.awE(this.a,b),J.bD(r)),1)},
 $S:33}
 A.awE.prototype={
-$2(a,b){var s,r,q,p,o,n=null,m=this.b.b
-m.toString
-s=J.ay(m,b)
-m=A.az(191,B.dF.E()>>>16&255,B.dF.E()>>>8&255,B.dF.E()&255)
+$2(a,b){var s,r,q,p,o,n=null,m="SubjectName",l=this.b.b
+l.toString
+s=J.ay(l,b)
+l=A.az(191,B.dF.E()>>>16&255,B.dF.E()>>>8&255,B.dF.E()&255)
 r=J.a9(s)
-q=A.av(J.d(r.h(s,"SubjectName"),"PMS")?"\u0627\u0633\u0633\u064a\u0627\u062a \u0627\u0644\u0648\u0631\u0627\u062b\u0629":"\u0648\u0631\u0627\u062b\u0629 \u0643\u064a\u0645\u0627\u0648\u064a\u0629 \u062d\u064a\u0648\u064a\u0629",n,n,n,B.cn,n,n)
+if(J.d(r.h(s,m),"PMS"))q="\u0627\u0633\u0633\u064a\u0627\u062a \u0627\u0644\u0648\u0631\u0627\u062b\u0629"
+else q=J.d(r.h(s,m),"GIMP")?"\u0627\u0644\u062a\u062d\u0633\u064a\u0646 \u0627\u0644\u0648\u0631\u0627\u062b\u064a":"\u0648\u0631\u0627\u062b\u0629 \u0643\u064a\u0645\u0627\u0648\u064a\u0629 \u062d\u064a\u0648\u064a\u0629"
+q=A.av(q,n,n,n,B.cn,n,n)
 p=A.bp(20)
 o=A.az(B.c.aB(178.5),B.dE.E()>>>16&255,B.dE.E()>>>8&255,B.dE.E()&255)
-return A.nJ(A.cH(A.e9(A.b([B.dl,q,B.dl,A.oW(A.d0(A.nR(A.wS(B.dw),10,10,B.MF,new A.bZ(n,n,n,p,n,n,B.O),2,new A.bB(o,t.rc),A.b([A.nQ(A.b([A.bS(A.av(r.h(s,"Attendance"),n,n,n,B.lC,n,n)),A.bS(A.av(r.h(s,"PracticalExam"),n,n,n,B.lC,n,n)),A.bS(A.av(r.h(s,"MidtermExam"),n,n,n,B.lC,n,n))],t.sa))],t.yy)),n,1/0),this.a.f)],t.p),B.A,B.E,B.I),n,n),m)},
+return A.nJ(A.cH(A.e9(A.b([B.dl,q,B.dl,A.oW(A.d0(A.nR(A.wS(B.dw),10,10,B.MF,new A.bZ(n,n,n,p,n,n,B.O),2,new A.bB(o,t.rc),A.b([A.nQ(A.b([A.bS(A.av(r.h(s,"Attendance"),n,n,n,B.lC,n,n)),A.bS(A.av(r.h(s,"PracticalExam"),n,n,n,B.lC,n,n)),A.bS(A.av(r.h(s,"MidtermExam"),n,n,n,B.lC,n,n))],t.sa))],t.yy)),n,1/0),this.a.f)],t.p),B.A,B.E,B.I),n,n),l)},
 $S:40}
 A.ax5.prototype={
 $0(){A.b8(this.a,!1).lF(A.dJ(new A.awD(),null,t.z))},
